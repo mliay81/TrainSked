@@ -1,3 +1,7 @@
-p {
-    color: red;
+.jumbotron {
+    background-image: url("C:/Users/Mike/Desktop/mliay81.github.io/TrainSked/images/choochoo1.jpg");
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden; */
 }
