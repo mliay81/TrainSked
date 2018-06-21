@@ -1,7 +1,29 @@
 .jumbotron {
-    background-image: url("C:/Users/Mike/Desktop/mliay81.github.io/TrainSked/images/choochoo1.jpg");
-    /* background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    overflow-x: hidden; */
+    background-color: gray;
+}
+
+.table-responsive {
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#skedbox1 {
+    outline: 1px solid;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: gray;
+    margin-bottom: 3px;
+}
+
+#skedbox2 {
+    outline: 1px solid;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    width: 421px;
 }

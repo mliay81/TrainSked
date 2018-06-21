@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/train.css" />
     <script src="assets/javascript/train.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 </head>
 <body>
     
@@ -17,7 +18,55 @@
         </div>
       </div>
 
+    
+    <div class="table-responsive">
+        <div id="skedbox1">
+            <p>Current Train Schedule</p>
+        <table class="table">
+                <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th scope="col" id="nameDisplay">Train Name</th>
+                            <th scope="col" id="destinationDisplay">Destination</th>
+                            <th scope="col" id="frequencyDisplay">Frequency (min)</th>
+                            <th scope="col" id="nextArrivalDisplay">Next Arrival</th>
+                            <th scope="col" id="minutesAwayDisplay">Minutes Away</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">Pain Train</td>
+                            <td>MPLS</td>
+                            <td>25</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+        </table>
+        </div>
+    </div>  
 
+    <div id="skedbox2">
+            <p>Input New Train</p>
+        <div class="row">
+            <div class="col-md-12">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Train Name" class="input-field" id="nameSubmit" style="width: 400px; margin: 10px">
+                    <input type="text" class="form-control" placeholder="Destination" class="input-field" class="input-field" id="destinationSubmit"
+                      style="width: 400px; margin: 10px">
+                    <input type="text" class="form-control" placeholder="First Train Time (hh:mm)" class="input-field" class="input-field" id="firstTrainSubmit"
+                      style="width: 400px; margin: 10px">
+                    <input type="text" class="form-control" placeholder="Frequency (min)" class="input-field" class="input-field" id="frequencySubmit"
+                      style="width: 400px; margin: 10px">
+                    <button type="submit" class="btn btn-primary" style="margin: 10px;" id="submit">Submit</button>
+                  </div>
+              </form>
+              </div>
+            </div>
+    </div>
 
 
 
